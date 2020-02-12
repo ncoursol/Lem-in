@@ -45,6 +45,8 @@ un petit : "make re" pour remettre tout bien comme il faut
 puis lancer la même commande que precedement suivi d'un pipe '|' et de l'executable './display' (attention il y'a du son!)
 ce qui nous donne avec tout : "./lem-in < maps_test/nc | ./display"
 
+les touches '+' et '-' de votre pavé numérique permettent de monter et diminuer la vitesse.
+
 Musique de menu : Propellerheads - Spybreak (Bullet time !!)
 
 Musique de visu : Deftones - My Own Summer (instru only)
