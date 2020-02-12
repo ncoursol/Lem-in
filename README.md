@@ -7,6 +7,7 @@ ainsi que les liaisons entre ces diffèrentes salles.
 
 le programme doit : pour les 'n' fourmis données en paramètre trouver le ou les chemins les plus courts
 permettant à toutes les fourmis d'aller de la salle ##start à la salle ##end et ce, en utilisant le moins de tour possible.
+
 Tout en respectant les règles suivantes : 
   - il ne peux y avoir plus d'une fourmi par salle (sauf 'start' et 'end')
   - On considère que les fourmis sont toutes dans la salle ##start au démarrage
@@ -45,6 +46,7 @@ puis lancer la même commande que precedement suivi d'un pipe '|' et de l'execut
 ce qui nous donne avec tout : "./lem-in < maps_test/nc | ./display"
 
 Musique de menu : Propellerheads - Spybreak (Bullet time !!)
+
 Musique de visu : Deftones - My Own Summer (instru only)
 
 Quelques screens de rendu :
