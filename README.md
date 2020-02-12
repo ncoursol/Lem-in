@@ -1,6 +1,7 @@
 # Lem-in
 
 Ce projet a pour bût de nous faire coder une fourmillière...
+
 Notre programme va prendre en paramètre des salles (sous forme de nom avec des coord x y)
 ainsi que les liaisons entre ces diffèrentes salles.
 
@@ -30,12 +31,16 @@ ex. de fichier valide :
 ```
 
 un makefile permet de compiler le programme.
+
 les fichiers permettant de definir les salles sont disponible dans le dossier 'maps_test'
 lancer le programme comme ceci : "./lem-in < maps_test/nc"
 
 Pour rendre le rendu un peu plus comprehensible humainement, un visu est disponible avec ce projet (avec un thème particulier)!
+
 Avant tout lancer la commande : "sh brew_check.sh" ce script va installer le necessaire au bon fonctionnement du visu (ca peut prendre un moment)
+
 un petit : "make re" pour remettre tout bien comme il faut
+
 puis lancer la même commande que precedement suivi d'un pipe '|' et de l'executable './display' (attention il y'a du son!)
 ce qui nous donne avec tout : "./lem-in < maps_test/nc | ./display"
 
