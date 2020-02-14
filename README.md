@@ -11,7 +11,7 @@ permettant à toutes les fourmis d'aller de la salle ##start à la salle ##end e
 Tout en respectant les règles suivantes : 
   - il ne peux y avoir plus d'une fourmi par salle (sauf 'start' et 'end')
   - On considère que les fourmis sont toutes dans la salle ##start au démarrage
-  - À chaque tour vous pouvez déplacer chaque fourmi une seule fois et ce suivant un tube (la salle réceptrice doit être libre).
+  - À chaque tour vous pouvez déplacer chaque fourmi une seule fois et ce suivant une liaison (la salle réceptrice doit être libre).
   
 ex. de fichier valide :
   
