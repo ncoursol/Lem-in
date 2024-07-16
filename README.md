@@ -1,19 +1,17 @@
 # Lem-in
 
-Ce projet a pour but de nous faire coder une fourmillière...
+This project aims to simulate an ant colony...
 
-Notre programme va prendre en paramètre des salles (sous forme de nom avec des coord x y)
-ainsi que les liaisons entre ces diffèrentes salles.
+Our program will take rooms (identified by name and x, y coordinates) as input, as well as the connections between these rooms.
 
-Le programme doit : pour les 'n' fourmis données en paramètre trouver le ou les chemins les plus courts
-permettant à toutes les fourmis d'aller de la salle ##start à la salle ##end et ce, en utilisant le moins de tour possible.
+The goal of the program is to: for the given 'n' number of ants, find the shortest path(s) that allow all the ants to travel from the room ##start to the room ##end using the fewest possible number of turns.
 
-Tout en respectant les règles suivantes : 
-  - il ne peux y avoir plus d'une fourmi par salle (sauf 'start' et 'end')
-  - on considère que les fourmis sont toutes dans la salle ##start au démarrage
-  - à chaque tour vous pouvez déplacer chaque fourmi une seule fois et ce suivant une liaison (la salle réceptrice doit être libre).
+The following rules must be respected:
+  - There can be no more than one ant per room (except for 'start' and 'end').
+  - All ants start in the room ##start.
+  - Each turn, you can move each ant only once, and it must follow a connection (the destination room must be free).
   
-ex. de fichier valide :
+Example of a valid file:
   
 ```
 5         //nombre de fourmis
@@ -31,33 +29,33 @@ ex. de fichier valide :
 4-1       ////////////////
 ```
 
-un makefile permet de compiler le programme.
+A makefile is provided to compile the program.
 
-les fichiers permettant de definir les salles sont disponibles dans le dossier 'maps_test'
-lancer le programme comme ceci : "./lem-in < maps_test/nc"
+Files defining the rooms are available in the 'maps_test' folder.
+Run the program like this: ./lem-in < maps_test/nc
 
-Pour rendre le rendu un peu plus compréhensible humainement, un visu est disponible avec ce projet (avec un thème particulier)!
+To make the output more human-readable, a visualization is available with this project (with a particular theme)!
 
-Avant tout, lancer la commande : "sh brew_check.sh" ce script va installer le necessaire au bon fonctionnement du visu (ca peut prendre un moment).
+First, run the command: sh brew_check.sh - this script will install the necessary components for the visualization to work (this may take some time).
 
-Un petit : "make re" pour remettre tout bien comme il faut.
+Then, a simple make re will set everything up correctly.
 
-Puis lancer la même commande que précédement suivi d'un '|' et de l'executable './display' (attention il y'a du son!)
-ce qui nous donne avec tout : "./lem-in < maps_test/nc | ./display"
+After that, run the same command as before followed by a '|' and the executable ./display (note there is sound!):
+./lem-in < maps_test/nc | ./display
 
-Les touches '+' et '-' de votre pavé numérique permettent de monter et diminuer la vitesse.
+The '+' and '-' keys on your numeric keypad will increase and decrease the speed.
 
-Musique de menu : Propellerheads - Spybreak (Bullet time !!)
+Menu music: Propellerheads - Spybreak (Bullet time!!)
 
-Musique de visu : Deftones - My Own Summer (instru only)
+Visualization music: Deftones - My Own Summer (instrumental only)
 
-Quelques screens de rendu :
+Some screenshots:
 
 Menu :
 ![image1](https://github.com/ncoursol/Lem-in/blob/master/img/screenshot/image1.png)
 
-Representation graphique de la methode algorithmique utilisée :
+Graphical representation of the algorithmic method used:
 ![image1](https://github.com/ncoursol/Lem-in/blob/master/img/screenshot/image2.png)
 
-Les fourmis (oui c'est des fourmis) partant de start à end suivant le/les chemins trouvés
+The ants (yes, they are ants) traveling from start to end following the found paths:
 ![image1](https://github.com/ncoursol/Lem-in/blob/master/img/screenshot/image3.png)
