@@ -14,17 +14,17 @@ The following rules must be respected:
 Example of a valid file:
   
 ```
-5         //nombre de fourmis
+5         //number of ants
 1 0 2     ///////////////
 ##start   //
-0 2 0     //  Déclaration des salles (nom x y)
-##end     //  ##start et ##end défini un status à la salle défini à la ligne suivante
-4 2 6     //  ici la salle nommé '0' sera la salle start
+0 2 0     //  Declaration of rooms (name x y)
+##end     //  ##start and ##end define a status for the room declared on the next line
+4 2 6     //  here the room named '0' will be the start room
 2 4 2     //
 3 4 4     ////////////////
 0-1       ////////////////
 0-2       //
-2-3       //  Déclaration des liaison entre les salles (nom_salle1 - nom_salle2)
+2-3       //  Declaration of connections between rooms (room_name1 - room_name2)
 3-4       //
 4-1       ////////////////
 ```
